@@ -1,5 +1,9 @@
 {
   "item.darquise.steel": "Steel",
 
+  "block.darquise.steel_block": "Steel Block",
+  "block.darquise.steel_ore": "Steel Ore",
+  "block.darquise.deepslate_steel_ore": "Deepslate Steel Ore",
+
   "itemGroup.darquisetab": "Darquise Mod Tab"
 }
