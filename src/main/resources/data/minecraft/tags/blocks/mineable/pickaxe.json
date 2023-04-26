@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "darquise:steel_ore",
+    "darquise:deepslate_steel_ore",
+    "darquise:steel_block"
+  ]
+}
