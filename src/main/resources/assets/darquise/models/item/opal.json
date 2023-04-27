@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "darquise:item/raw_steel"
+    "layer0": "darquise:item/opal"
   }
 }

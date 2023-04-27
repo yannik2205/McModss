@@ -25,10 +25,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> STEEL_BLOCK = registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
             ModCreativeModeTab.Darquise);
-    public static final RegistryObject<Block> STEEL_ORE = registerBlock("steel_ore",
+    public static final RegistryObject<Block> OPAL_ORE = registerBlock("opal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
             UniformInt.of(3,7)), ModCreativeModeTab.Darquise);
-    public static final RegistryObject<Block> DEEPSLATE_STEEL_ORE = registerBlock("deepslate_steel_ore",
+    public static final RegistryObject<Block> DEEPSLATE_OPAL_ORE = registerBlock("deepslate_opal_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
+                    UniformInt.of(4,8)), ModCreativeModeTab.Darquise);
+    public static final RegistryObject<Block> OPAL_BLOCK = registerBlock("opal_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(4,8)), ModCreativeModeTab.Darquise);
 

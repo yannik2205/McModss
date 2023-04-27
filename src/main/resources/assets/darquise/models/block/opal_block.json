@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "darquise:block/deepslate_steel_ore"
+    "all": "darquise:block/opal_block"
   }
 }

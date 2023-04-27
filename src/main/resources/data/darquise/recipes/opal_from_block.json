@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "darquise:opal_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "darquise:opal"
+  }
+}

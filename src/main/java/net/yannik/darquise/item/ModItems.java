@@ -14,7 +14,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> STEEL = ITEMS.register("steel",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Darquise)));
-    public static final RegistryObject<Item> RAW_STEEL = ITEMS.register("raw_steel",
+    public static final RegistryObject<Item> OPAL = ITEMS.register("opal",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.Darquise)));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

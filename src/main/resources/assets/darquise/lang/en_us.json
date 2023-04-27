@@ -1,10 +1,11 @@
 {
   "item.darquise.steel": "Steel",
-  "item.darquise.raw_steel": "Raw Steel",
+  "item.darquise.opal": "Opal",
 
   "block.darquise.steel_block": "Steel Block",
-  "block.darquise.steel_ore": "Steel Ore",
-  "block.darquise.deepslate_steel_ore": "Deepslate Steel Ore",
+  "block.darquise.opal_ore": "Opal Ore",
+  "block.darquise.deepslate_opal_ore": "Deepslate Opal Ore",
+  "block.darquise.opal_block": "Opal Block",
 
   "itemGroup.darquisetab": "Darquise Mod Tab"
 }

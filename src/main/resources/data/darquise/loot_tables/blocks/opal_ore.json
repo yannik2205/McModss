@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "darquise:steel_ore"
+              "name": "darquise:opal_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "darquise:raw_steel"
+              "name": "darquise:opal"
             }
           ]
         }
