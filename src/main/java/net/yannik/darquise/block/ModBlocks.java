@@ -13,6 +13,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.yannik.darquise.Darquise;
+import net.yannik.darquise.block.custom.OpalLampBlock;
 import net.yannik.darquise.item.ModCreativeModeTab;
 import net.yannik.darquise.item.ModItems;
 
@@ -32,8 +33,12 @@ public class ModBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(4,8)), ModCreativeModeTab.Darquise);
     public static final RegistryObject<Block> OPAL_BLOCK = registerBlock("opal_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(), //hier darf kein drop EXPERIENCE BLOCK !!!!
                     UniformInt.of(4,8)), ModCreativeModeTab.Darquise);
+    // custom block register
+    public static final RegistryObject<Block> OPAL_LAMP_BLOCK = registerBlock("opal_lamp_block",
+            () -> new OpalLampBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4f).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(OpalLampBlock.LIT) ? 15 : 0)), //when block is lit then light level 15 and if not then zero
+            ModCreativeModeTab.Darquise);
 
 
     //helper methods to create a block (basically rewriting a item to a block

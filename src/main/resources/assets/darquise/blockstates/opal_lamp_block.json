@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": {"model":  "darquise:block/opal_lamp_on"},
+    "lit=false": {"model":  "darquise:block/opal_lamp_off"}
+  }
+}
